@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الصفحة الرئيسية للطالب</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>مرحباً بك في الصفحة الرئيسية للطالب</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="teacher-login.html">تسجيل الدخول كمعلم</a>
+    </nav>
+
+    <main>
+      <section class="section weekly-plan">
+        <h2>البحث عن خطة المعلم</h2>
+        <input type="text" id="teacherSearch" class="input" placeholder="ابحث عن اسم المعلم">
+        <button onclick="searchTeacher()" class="btn">أرني الخطة</button>
+        <div id="planContent" class="plan-content"></div>
+      </section>
+
+      <section class="section weekly-schedule">
+        <h2>جدولي الأسبوعي</h2>
+        <div id="studentScheduleContent" class="schedule-content">
+          <p>لا يوجد جدول متاح حالياً.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 - موقع المدرسة الإلكتروني</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </div>
+</body>
+</html>

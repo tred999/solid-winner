@@ -1,0 +1,97 @@
+/* تنسيق عام للصفحات */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* رأس الصفحة */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* قائمة التنقل */
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 0 10px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
+
+/* المحتوى الرئيسي */
+.section {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+textarea.input {
+  resize: vertical;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* تذييل الصفحة */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+}
