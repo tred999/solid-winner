@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الصفحة الرئيسية للمعلم</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>مرحباً بك في الصفحة الرئيسية للمعلم</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="student-login.html">تسجيل الدخول كطالب</a>
+    </nav>
+
+    <main>
+      <!-- إضافة الجدول الأسبوعي -->
+      <section class="section weekly-plan">
+        <h2>إضافة الجدول الأسبوعي</h2>
+        <form id="weeklyPlanForm">
+          <label for="weekly-plan">أضف الخطة الأسبوعية</label>
+          <textarea id="weekly-plan" class="input" placeholder="أدخل الخطة الأسبوعية هنا" rows="5"></textarea>
+          <button type="submit" class="btn">إرسال الخطة</button>
+        </form>
+      </section>
+
+      <!-- جدولي الأسبوعي -->
+      <section class="section weekly-schedule">
+        <h2>جدولي الأسبوعي</h2>
+        <div id="scheduleContent" class="schedule-content">
+          <p>لا يوجد جدول متاح حالياً.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 - موقع المدرسة الإلكتروني</p>
+    </footer>
+  </div>
+</body>
+</html>
